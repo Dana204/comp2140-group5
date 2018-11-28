@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Author//:Michael Goldson-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <title>Employee Submission Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/fhf.css"/>
+    <script type="text/javascript" src="scripts/fhf.js"> </script>
+  </head>
+  <body>
+  	<h1> Employee's Maintenance Submission Form </h1>
+    <!-- <form action="" method="post" onsubmit="return validate();"> -->
+    <form action="http://localhost/2140scripts/maintain.php" method="post" onsubmit="return validate();">
+    	<p>
+        <div>
+        	<label class="form-field">Name</label>
+          <input id="name" type="text" name="name"/>
+          <br />
+        </div>
+        <div class="form-field">
+          <label>Department</label>
+          <input id="department" type="text" name="department"/>
+          <br />
+        </div>
+
+        <div class="form-field">
+            <label>Email</label>
+               <input id="email" type="text" name="email"/>
+            <br />
+        </div>
+        <div class="form-field">
+            <label>Area</label>
+            <select id="area" name="area">
+                <option value="0" selected="selected">Select area</option> 
+                    <option value="Corporate Office Ground Floor">Corporate Office Ground Floor</option>
+                    <option value="Corporate Office Upper Floor">Corporate Office Upper Floor</option>
+                    <option value="Corporate Car Park">Corporate Car Park</option>
+                    <option value="Social Block">Social Block</option>
+                    <option value="Distribution Centre">Distribution Centre</option>
+                    <option value="Work Shop">Work Shop</option>
+                    <option value="DC Security Post">DC Security Post</option>
+                    <option value="Haulier Room">Haulier Room</option>
+                    <option value="Storage Tank">Storage Tank</option>
+                    <option value="Container Yard">Container Yard</option>
+                    <option value="Small Service Yard">Small Service Yard</option>
+                    <option value="WWTP">WWTP</option>
+                </select>
+                <br />
+            </div>
+            <div class="form-field">
+            <label>Location</label>
+               <input id="location" type="text" name="location"/>
+            <br />  
+            </div>
+
+          <div class="form-field field">
+            <label>Description</label>
+            <textarea id="description" name="description" rows="5" cols="42"></textarea>
+            <br />
+          </div>
+
+            <!--<label>Hidden form element</label>-->
+            <input type="hidden" id="status" name="status" value="Pending"/>
+
+            <div class="form-field">
+            <label>Category</label>
+        		<select id="category" name="category">
+            		<option value="0" selected="selected">Select category</option> 
+                    <option value="Infrastructure">Infrastructure</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="Plumbling">Plumbling</option>
+                </select>
+                <br />
+            </div>
+              <!--<label>Hidden form element</label>-->
+              <input type="hidden" name="test" value="c7fafc6d1d3ec4671a342b64e319909f"/>
+
+                <input type="submit" value="Submit" id="Submit1" name="Submit1"/>
+                <br />
+         </p>
+    </form>
+   </body>
+</html>

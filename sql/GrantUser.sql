@@ -1,0 +1,2 @@
+CREATE USER 'comp2140'@'localhost' IDENTIFIED BY 'group5';
+GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER ON MaintainDB.* TO comp2140@'localhost';

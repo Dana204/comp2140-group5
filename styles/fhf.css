@@ -1,0 +1,127 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 100px;
+}
+
+form {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+    margin: 0 auto;
+    width: 35rem;
+    background: #999;
+    padding: 1rem;
+    box-shadow: 4px 4px 4px #777;
+}
+
+h1{
+    font: bold;
+    color: darkblue;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 0.5rem;
+}
+
+label{
+  padding: 0.5em;
+  width: 6em;
+  background-color: #f2f2f2;
+  display:inline-block;
+  /* color: #142952; */
+  /* color:#003b8a; */
+  color: #103b6f;
+}
+
+textarea { 
+    /* vertical-align: top;  */
+    /* display: inline-block; */
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.0em;
+    }​
+
+textarea, select {
+    /* display: inline-block; */
+    padding: 6px 10px;
+    margin: 3px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 25rem;
+}
+/* 
+.field {
+    display: inline-block;
+    display: flex;
+    align-self: center;
+}*/
+
+.field label{
+    margin-bottom: -50px;
+}
+
+input[type=text], select {
+    padding: 6px 10px;
+    margin: 3px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:25rem;
+}
+
+input[type="text"]{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.0em;
+    
+}
+
+/*input:hover::-webkit-input-placeholder { color:transparent; }
+input:hover:-moz-placeholder { color:transparent; }*/                   
+
+select {
+    font-size: 1.1em;
+}
+
+input[type=submit] { 
+    background-color: #3366CC;
+    color: white;
+    padding: 7px 10px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+    padding: 7px 10px;
+    margin: 7px 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+.valid {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+}
+
+.invalid {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.1em;
+    color: red;
+    border-color:red;
+}
+
+
